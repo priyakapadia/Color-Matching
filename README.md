@@ -1,1 +1,4 @@
 # Color-Matching
+This matlab color matching game is called "Match the Patch". It has a homescreen, instruction screen, the game, and a scoreboard to document users and highscores.
+
+The game has 16 tiles in a 4 by 4 square. Each tile has a unique color, and matches another in the square. The tiles are randomly shuffled using a colormap of pastels. Initially, the game will display all the tiles for 3 seconds, after which all the tiles will turn white. If the user selects the two tiles of the same color, they will get one point and the tiles will turn green. Otherwise, they do not receive any points. After the user selects two inputs, the tiles flash their original color for 1 second, and then become white once again. The green tiles, which are the ones that the user got correct, will remain green. The user only gets 8 tries, after which they will be redirected to the scoreboard.
